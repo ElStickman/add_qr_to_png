@@ -1,0 +1,19 @@
+To run this on Visual Studio Code (from now on called VSC), 
+Install python. Windows Store works best on windows...
+Open the VSC terminal, run the command: python
+this opens the windows store. Install python.
+
+Create a folder for the project, with the terminal of VSC go to that folder.
+run python -m venv C:\YOUR-FOLDER_ROUTE\venv
+in this case
+python -m venv C:\add_qr_to_png-main\venv
+Now you can install libraries con your folder project
+run
+pip install pyqrcode 
+pip install pypng 
+pip install Pillow
+
+Now that is all installed, run
+python .\add_qr_to_png.py
+
+and it should work.
